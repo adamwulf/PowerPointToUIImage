@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Adam Wulf. All rights reserved.
 //
 
-#import "MMViewController.h"
+#import "MMThumbnailPPTController.h"
 
-@implementation MMViewController{
+@implementation MMThumbnailPPTController{
     // the webview we'll use to generate thumbnails
     UIWebView *webView;
     // a uiview will help us hide the webview

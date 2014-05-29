@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MMViewController.h"
+#import "MMThumbnailPPTController.h"
 
 @interface MMAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-@property (strong, nonatomic) MMViewController *viewController;
+@property (strong, nonatomic) MMThumbnailPPTController *viewController;
 
 @end

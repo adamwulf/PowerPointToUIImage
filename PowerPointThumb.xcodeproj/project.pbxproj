@@ -13,7 +13,7 @@
 		66E716D1193675BB00548491 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66E716CF193675BB00548491 /* InfoPlist.strings */; };
 		66E716D3193675BB00548491 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E716D2193675BB00548491 /* main.m */; };
 		66E716D7193675BB00548491 /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E716D6193675BB00548491 /* MMAppDelegate.m */; };
-		66E716DD193675BB00548491 /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E716DC193675BB00548491 /* MMViewController.m */; };
+		66E716DD193675BB00548491 /* MMThumbnailPPTController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E716DC193675BB00548491 /* MMThumbnailPPTController.m */; };
 		66E716DF193675BB00548491 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E716DE193675BB00548491 /* Images.xcassets */; };
 		66E7170F1936FBEB00548491 /* WorstPresentationEverStandAlone.ppt in Resources */ = {isa = PBXBuildFile; fileRef = 66E7170E1936FBC300548491 /* WorstPresentationEverStandAlone.ppt */; };
 /* End PBXBuildFile section */
@@ -29,8 +29,8 @@
 		66E716D4193675BB00548491 /* PowerPointThumb-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PowerPointThumb-Prefix.pch"; sourceTree = "<group>"; };
 		66E716D5193675BB00548491 /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
 		66E716D6193675BB00548491 /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
-		66E716DB193675BB00548491 /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
-		66E716DC193675BB00548491 /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
+		66E716DB193675BB00548491 /* MMThumbnailPPTController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMThumbnailPPTController.h; sourceTree = "<group>"; };
+		66E716DC193675BB00548491 /* MMThumbnailPPTController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMThumbnailPPTController.m; sourceTree = "<group>"; };
 		66E716DE193675BB00548491 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		66E7170E1936FBC300548491 /* WorstPresentationEverStandAlone.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = WorstPresentationEverStandAlone.ppt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,8 +81,8 @@
 			children = (
 				66E716D5193675BB00548491 /* MMAppDelegate.h */,
 				66E716D6193675BB00548491 /* MMAppDelegate.m */,
-				66E716DB193675BB00548491 /* MMViewController.h */,
-				66E716DC193675BB00548491 /* MMViewController.m */,
+				66E716DB193675BB00548491 /* MMThumbnailPPTController.h */,
+				66E716DC193675BB00548491 /* MMThumbnailPPTController.m */,
 				66E716DE193675BB00548491 /* Images.xcassets */,
 				66E716CD193675BB00548491 /* Supporting Files */,
 			);
@@ -169,7 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66E716D7193675BB00548491 /* MMAppDelegate.m in Sources */,
-				66E716DD193675BB00548491 /* MMViewController.m in Sources */,
+				66E716DD193675BB00548491 /* MMThumbnailPPTController.m in Sources */,
 				66E716D3193675BB00548491 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +307,7 @@
 				66E716F7193675BB00548491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

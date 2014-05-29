@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MMViewController : UIViewController<UIWebViewDelegate>
+@interface MMThumbnailPPTController : UIViewController<UIWebViewDelegate>
 
 -(void)generateThumbnailsForFile:(NSURL *)url;
 
