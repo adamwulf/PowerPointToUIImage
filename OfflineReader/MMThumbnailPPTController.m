@@ -34,7 +34,7 @@
         [self.view addSubview:hidingView];
         
         loadPPTButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-        [loadPPTButton setTitle:@"Load PPT" forState:UIControlStateNormal];
+        [loadPPTButton setAttributedTitle:[[NSAttributedString alloc] initWithString:@"Tap to Generate Thumbnails" attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:40]}] forState:UIControlStateNormal];
         [loadPPTButton sizeToFit];
         [loadPPTButton addTarget:self action:@selector(loadPPT:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:loadPPTButton];
@@ -48,7 +48,9 @@
         
         status = [[UILabel alloc] init];
         status.textAlignment = NSTextAlignmentCenter;
-        status.text = @"Ready";
+        status.text = @"";
+        status.font = [UIFont systemFontOfSize:20];
+        status.numberOfLines = 0;
         [status sizeToFit];
         fr = loadPPTButton.frame;
         fr.size.width = self.view.bounds.size.width;
